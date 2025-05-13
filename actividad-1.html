@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Actividad 1</title>
+</head>
+<body>
+    <header class="assignments">
+        <button class="hamburger" id="menu-toggle">☰</button>
+        <ul class="navbar" id="mobile-menu">
+            <li class="nav-item">
+                <a href="./actividad-1.html">Actividad 1</a>
+            </li>
+            <li class="nav-item">
+                <a href="./actividad-2.html">Actividad 2</a>
+            </li>
+            <li class="nav-item">
+                <a href="./actividad-3.html">Actividad 3</a>
+            </li>
+        </ul>
+        <div class="title-page">
+            <a href="./index.html">
+                <h4>Aieta Federico</h4>
+                <img src="./assets/img/nier_logo-removebg-preview.png" alt="" />
+            </a>
+        </div>
+    </header>
+    <main class="main-page">
+        <section class="lang-section">
+            <form id="lang-form" class="lang-form" action="">
+                <h2>¿Cuál es tu lenguaje de programación favorito?</h2>
+                <div class="lang-choice">
+                    <div class="radio-item">
+                        <input type="radio" name="fav_language" id="javascript" value="JavaScript">
+                        <label for="javascript">JavaScript</label>
+                    </div>
+    
+                    <div class="radio-item">
+                        <input type="radio" name="fav_language" id="python" value="Python">
+                        <label for="python">Python</label>
+                    </div>
+    
+                    <div class="radio-item">
+                        <input type="radio" name="fav_language" id="java" value="Java">
+                        <label for="java">Java</label>
+                    </div class="radio-item">
+    
+                    <div class="radio-item">
+                        <input type="radio" name="fav_language" id="csharp" value="C#">
+                        <label for="csharp">C#</label>
+                    </div>
+    
+                    <div class="radio-item">
+                        <input type="radio" name="fav_language" id="ruby" value="Ruby">
+                        <label for="ruby">Ruby</label>
+                    </div>
+                </div>
+                <button type="submit">Enviar</button>
+            </form>
+            <div class="lang-results">
+                <h2>Resultados:</h2>
+                <ol id="lang-leaderboard" class="lang-leaderboard">
+
+                </ol>
+            </div>
+        </section>
+    </main>
+    <script src="./assets/js/actividad_1.js"></script>
+    <script src="./assets/js/mobile-menu.js"></script>
+</body>
+</html>
